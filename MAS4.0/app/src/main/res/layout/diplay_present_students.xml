@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editlayout"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/editclassroomtv"
+            android:text="Present Students"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:layout_below="@id/editclassroomtv"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editlv"
+            android:divider="@color/colorAccent"
+            android:dividerHeight="0.5dp"
+            android:layout_below="@id/total"
+             >
+
+        </ListView>
+        <include layout="@layout/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            ></include>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_navigation_activity"
+        app:menu="@menu/activity_navigation_activity_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MAS</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="version_name">V2.1</string>
+    <string name="title_activity_navigation_activity">Navigation_activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_info">Start adding classrooms by clicking on add button.
+        After adding classrooms, add students by editiing classrooms(see navigation bar).
+        After adding students, start taking attendance</string>
+
+    <string name="stu_info">You need to add students before taking attendance.
+        \n\nGo to \nEdit classrooms->Select Classroom->Add Students</string>
+    <string name="del_text">
+    1) A classroom: You need to go to edit classrooms, tap and hold your class there.
+    </string>
+    <string name="del_text2">2) A student: You need to go to
+        edit classrooms -> select classroom -> tap and hold student name.
+    </string>
+    <string name="del_text3">3) Attendance: You need to go to past attendance -> select classroom ->
+        tap and hold on any date you wish to delete</string>
+    <string name="about">The mobile attendance system has been built to eliminate the time and effort wasted in taking attendances in schools and colleges.
+        It also greatly reduces the amount of paper resources needed in attendance data management.
+        This is an android mobile app. It’s built to be used for school/college faculty so that they may take student attendance on their phones.
+        \n\nThe system is divided into following modules:
+        \n\nStudent Attendance List Creation: Once this App is installed on a phone,  it allows user to create a student attendance sheet consisting of name, roll number, total present,total classes,percentage attendance.
+        He has to fill student names along with associated roll numbers. \n
+        Attendance Marking: The faculty has the list on his phone now. He may see the list call roll numbers and mark checkbox on the basis of absence/presence of student.
+        \n\nAttendance Storage: This data is now stored in the faculty mobile phone. Faculty may also view it anytime on their phone.
+        \n\nAttendance sheet transfer: The faculty can transfer the file to a server (normal computer) via a bluetooth connection where this data can be stored and maintained by the school or college. \n
+        \nThus this system automates attendance system and eliminates the use of paperwork needed for attendance marking and monitoring student attendance.
+        \n\n\nDevelopers -
+        \n\tAyush Patel\n\tAyush Yadav\n\tGourav Badone</string>
+</resources>

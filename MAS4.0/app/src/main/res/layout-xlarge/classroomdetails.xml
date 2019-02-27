@@ -1,0 +1,200 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+         >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Classroom Details"
+        android:id="@+id/student_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#587abd"
+        android:textSize="35sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:fitsSystemWindows="true"
+        android:layout_below="@id/appbar"
+        />
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Name"
+        android:id="@+id/textView"
+        android:layout_below="@id/student_details"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@id/student_details"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:inputType="textCapCharacters"
+        android:hint="Enter Subject name"/>
+
+<!--
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department Name"
+        android:id="@+id/textView2"
+        android:layout_below="@id/textView"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        />
+-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@id/editText"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:inputType="textCapCharacters"
+        android:hint="Enter Department name"/>
+
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Division Name"
+        android:id="@+id/textView3"
+        android:layout_below="@id/textView2"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_below="@id/editText2"
+
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:inputType="textCapCharacters"
+        android:hint="Enter Division"/>
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester"
+        android:id="@+id/textView4"
+        android:layout_below="@id/textView3"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+
+   --> <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_below="@id/editText3"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Enter Semester"/>
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll from"
+        android:id="@+id/textView5"
+        android:layout_below="@id/textView4"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/textView5"
+        android:layout_toEndOf="@id/textView5"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:inputType="textCapWords"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll upto"
+        android:id="@+id/textView6"
+        android:layout_below="@id/textView5"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_below="@id/textView5"
+        android:layout_toRightOf="@id/textView6"
+        android:layout_toEndOf="@id/textView6"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textAlignment="center" />
+-->
+    <include layout="@layout/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </include>
+
+        </RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_navigation_activity"
+        app:menu="@menu/activity_navigation_activity_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
+

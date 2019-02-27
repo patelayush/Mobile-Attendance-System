@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_check_circle_24dp"
+            android:title="Take Attendance" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/ic_mode_edit_24dp"
+            android:title="Edit Classrooms" />
+        <item
+            android:id="@+id/past_attendance"
+            android:icon="@drawable/time"
+            android:title="Past Attendances" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_assessment_24dp"
+            android:title="Statistics" />
+
+        <item
+            android:id="@+id/nav_excel"
+            android:icon="@drawable/ic_folder_open_24dp"
+            android:title="Generate Excel"></item>
+
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/ic_delete_24dp"
+            android:title="Delete" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_help_24dp"
+            android:title="About" />
+    </group>
+    
+</menu>

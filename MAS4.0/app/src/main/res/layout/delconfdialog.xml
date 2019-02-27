@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:background="@drawable/dialog_shape">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        android:paddingRight="@dimen/default_margin">
+
+        <TextView
+            android:id="@+id/tvroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorAccent"
+            android:text="Are you sure you want to delete "
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:background="#00fcf9f9"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:text="YES"
+            android:fontFamily="sans-serif"/>
+
+        <Button
+            android:id="@+id/negativebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:background="#00fcf9f9"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:text="NO"
+            android:fontFamily="sans-serif"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

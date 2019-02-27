@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jarvis.mas">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.jarvis.mas.SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jarvis.mas.MainActivity"
+            android:label="MAS"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jarvis.mas.Excelclass"
+            android:label="Excel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jarvis.mas.Excelclassroom"
+            android:label="Generate Excel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jarvis.mas.Pastclassrooms"
+            android:label="Past Attendance"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jarvis.mas.About"
+            android:label="About"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.jarvis.mas.Statistics"
+            android:label="Statistics"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.jarvis.mas.Navigation_activity"
+            android:label="Take Attendance"
+            android:parentActivityName="com.example.jarvis.mas.SplashScreen"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jarvis.mas.SplashScreen" />
+        </activity>
+        <activity android:name="com.example.jarvis.mas.ClassroomDetails"
+            android:label="Classroom Details"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Statsclassroom"
+            android:label="Statistics"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Statsstudents"
+            android:label="Statistics"
+            android:theme="@style/AppTheme"
+            ></activity>
+
+        <activity android:name="com.example.jarvis.mas.Studentsactivity"
+            android:label="Take Attendance"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name="com.example.jarvis.mas.Editclassroom"
+            android:label="Edit Classrooms"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Delete"
+            android:label="Delete"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Editstudents"
+            android:label="Edit Students"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Displayselectedstudents"
+            android:label="Present Students"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.Pastlist"
+            android:label="Past Attendance List"
+            android:theme="@style/AppTheme"
+            ></activity>
+        <activity android:name="com.example.jarvis.mas.PastAttendance"
+            android:label="Past Attendance"
+            android:theme="@style/AppTheme"
+            ></activity>
+
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

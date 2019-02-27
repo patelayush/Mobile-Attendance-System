@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jarvis.listviewexample.MainActivity"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tlv1"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tlv2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/datetime"
+        android:orderInCategory="101"
+        android:title="Date Time"
+        app:showAsAction="always"
+        android:icon="@drawable/agenda"
+         />
+    <item
+        android:id="@+id/pastattendance"
+        android:orderInCategory="100"
+        android:title="Date Time"
+        app:showAsAction="always"
+        android:icon="@drawable/time"
+        />
+
+</menu>
